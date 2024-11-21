@@ -14,7 +14,8 @@ from metagpt.roles.engineer import Engineer
 from metagpt.roles.qa_engineer import QaEngineer
 from metagpt.roles.searcher import Searcher
 from metagpt.roles.sales import Sales
-
+from metagpt.roles.professor_trainer import Trainer
+from metagpt.roles.professor_past_performance import PastPerformance
 
 __all__ = [
     "Role",
@@ -25,4 +26,6 @@ __all__ = [
     "QaEngineer",
     "Searcher",
     "Sales",
+    "Trainer",
+    "PastPerformance"
 ]
